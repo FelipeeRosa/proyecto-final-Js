@@ -1,0 +1,140 @@
+/* HEADER------------------------------------------- */
+
+.navbar-brand img {max-width: 100px;}
+
+.bg-dark { background: #333a40;}
+
+.navbar-dark .navbar-nav .btn-comprar {color: #037803;}
+    
+
+/*CAROUSEL------------------------------------------ */
+
+#carousel{
+    margin-top: 4.5rem;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+#carousel img{
+    filter: brightness(50%);
+}
+.btn-outline-secondary{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.btn-outline-secondary:hover{
+    background: white;
+    color: black;
+}
+.btn-success{
+    background-color: #037803;
+}
+
+/*CONOCE A LOS ORADORES. TITULO--------------------- */
+.oradores{
+    text-align: center;
+}
+.oradores span{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+
+/*CONVIERTITE EN ORADOR. TITULO---------------------- */
+
+.form-orador{
+    text-align: center;
+}
+.form-orador span{
+    font-weight: 100;
+    font-size: 15px;
+}
+/*LUGAR Y FECHA-------------------------------------- */
+
+#honolulu {
+    background: #333a40;
+    color: white;
+    padding: top 1px;
+    margin-top: 2rem;
+    
+}
+#buttonHonolulu {
+    color: white;
+    border: 1px solid white;
+}
+#buttonHonolulu:hover{
+    color: black;
+}
+
+
+/*FORMULARIO----------------------------------------- */
+
+.btn-primary{
+    background-color: #037803;
+    border: #037803;
+}
+.btn-primary:hover{
+    background-color: darkgreen;
+}
+.btn-primary:active{
+    background: #037803;
+}
+
+/*FOOTER-------------------------------------------- */
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background: #1d3c4e;
+    color: #fff;
+    margin-top: 2rem;
+    
+}
+#footer .nav-link {
+    color: #fff;
+    text-align: center;
+
+}
+
+
+/*ESTILOS COMPRAR TICKETS-------------------------- */
+
+
+/*TITULO VENTA VOLOR DEL TICKET-------------------- */
+.tituloVenta{
+    text-align: center;
+}
+.tituloVenta span{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+/*COLUMNA DE DESCUENTOS---------------------------- */
+
+#descuento{
+    margin-top: 6rem;
+}
+
+
+
